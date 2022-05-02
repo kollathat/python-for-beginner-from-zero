@@ -1,4 +1,7 @@
+import sys
 import turtle
+
+print(sys.version)
 
 t = turtle.Turtle()
 
