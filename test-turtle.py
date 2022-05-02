@@ -2,7 +2,8 @@ import turtle
 
 t = turtle.Turtle()
 
-t.shape('turtle')
+t.shape("turtle")
+
 
 def draw_rectangle():
     """Draw rectangle."""
@@ -10,21 +11,25 @@ def draw_rectangle():
         t.forward(100)
         t.left(90)
 
+
 def goto(x, y):
     """Move turtle to x, y position."""
     t.penup()
     t.goto(x, y)
     t.pendown()
 
+
 def draw_circle():
     """Draw a circle."""
     t.circle(60)
-    
+
+
 def goto_home():
     """Move turtle to home position."""
     t.penup()
     t.home()
     t.pendown()
+
 
 draw_rectangle()
 goto(22, 22)
